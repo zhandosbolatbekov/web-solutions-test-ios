@@ -19,6 +19,23 @@
 		D7327523258A3E6A001B07AB /* ConnectInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327522258A3E6A001B07AB /* ConnectInteractorOutput.swift */; };
 		D7327527258A4123001B07AB /* ConnectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327526258A4123001B07AB /* ConnectButtonView.swift */; };
 		D7327530258A5036001B07AB /* ConnectButtonViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732752F258A5036001B07AB /* ConnectButtonViewState.swift */; };
+		D7327538258A618D001B07AB /* CountrySelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327537258A618D001B07AB /* CountrySelectionViewController.swift */; };
+		D732753C258A61CE001B07AB /* CountrySelectionViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732753B258A61CE001B07AB /* CountrySelectionViewInput.swift */; };
+		D732753F258A6202001B07AB /* CountrySelectionViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732753E258A6202001B07AB /* CountrySelectionViewOutput.swift */; };
+		D7327543258A62AB001B07AB /* CountrySelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327542258A62AB001B07AB /* CountrySelectionPresenter.swift */; };
+		D7327549258A62E0001B07AB /* CountrySelectionInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327548258A62E0001B07AB /* CountrySelectionInteractorInput.swift */; };
+		D732754C258A6307001B07AB /* CountrySelectionInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732754B258A6307001B07AB /* CountrySelectionInteractorOutput.swift */; };
+		D732754F258A6333001B07AB /* CountrySelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732754E258A6333001B07AB /* CountrySelectionInteractor.swift */; };
+		D7327553258A6395001B07AB /* CountrySelectionRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327552258A6395001B07AB /* CountrySelectionRouterInput.swift */; };
+		D7327557258A63C1001B07AB /* CountrySelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327556258A63C1001B07AB /* CountrySelectionRouter.swift */; };
+		D732755B258A6429001B07AB /* CountrySelectionModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732755A258A6429001B07AB /* CountrySelectionModuleAssembly.swift */; };
+		D732755F258A6454001B07AB /* CountrySelectionModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732755E258A6454001B07AB /* CountrySelectionModuleOutput.swift */; };
+		D7327562258A65AF001B07AB /* CountrySelectionConfigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327561258A65AF001B07AB /* CountrySelectionConfigData.swift */; };
+		D7327565258A65D6001B07AB /* CountrySelectionModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327564258A65D6001B07AB /* CountrySelectionModuleInput.swift */; };
+		D7327569258A69D9001B07AB /* CountrySelectionTableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327568258A69D9001B07AB /* CountrySelectionTableViewManager.swift */; };
+		D732756D258A6AE4001B07AB /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732756C258A6AE4001B07AB /* Country.swift */; };
+		D7327570258A6C64001B07AB /* CountryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732756F258A6C64001B07AB /* CountryItemView.swift */; };
+		D7327575258A6E83001B07AB /* CountryItemViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327574258A6E83001B07AB /* CountryItemViewAdapter.swift */; };
 		D7FBCF5F258A300900164564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF5E258A300900164564 /* AppDelegate.swift */; };
 		D7FBCF63258A300900164564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF62258A300900164564 /* ViewController.swift */; };
 		D7FBCF68258A300C00164564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF67258A300C00164564 /* Assets.xcassets */; };
@@ -38,6 +55,23 @@
 		D7327522258A3E6A001B07AB /* ConnectInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInteractorOutput.swift; sourceTree = "<group>"; };
 		D7327526258A4123001B07AB /* ConnectButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButtonView.swift; sourceTree = "<group>"; };
 		D732752F258A5036001B07AB /* ConnectButtonViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButtonViewState.swift; sourceTree = "<group>"; };
+		D7327537258A618D001B07AB /* CountrySelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewController.swift; sourceTree = "<group>"; };
+		D732753B258A61CE001B07AB /* CountrySelectionViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewInput.swift; sourceTree = "<group>"; };
+		D732753E258A6202001B07AB /* CountrySelectionViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionViewOutput.swift; sourceTree = "<group>"; };
+		D7327542258A62AB001B07AB /* CountrySelectionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionPresenter.swift; sourceTree = "<group>"; };
+		D7327548258A62E0001B07AB /* CountrySelectionInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionInteractorInput.swift; sourceTree = "<group>"; };
+		D732754B258A6307001B07AB /* CountrySelectionInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionInteractorOutput.swift; sourceTree = "<group>"; };
+		D732754E258A6333001B07AB /* CountrySelectionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionInteractor.swift; sourceTree = "<group>"; };
+		D7327552258A6395001B07AB /* CountrySelectionRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionRouterInput.swift; sourceTree = "<group>"; };
+		D7327556258A63C1001B07AB /* CountrySelectionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionRouter.swift; sourceTree = "<group>"; };
+		D732755A258A6429001B07AB /* CountrySelectionModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionModuleAssembly.swift; sourceTree = "<group>"; };
+		D732755E258A6454001B07AB /* CountrySelectionModuleOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionModuleOutput.swift; sourceTree = "<group>"; };
+		D7327561258A65AF001B07AB /* CountrySelectionConfigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionConfigData.swift; sourceTree = "<group>"; };
+		D7327564258A65D6001B07AB /* CountrySelectionModuleInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionModuleInput.swift; sourceTree = "<group>"; };
+		D7327568258A69D9001B07AB /* CountrySelectionTableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountrySelectionTableViewManager.swift; sourceTree = "<group>"; };
+		D732756C258A6AE4001B07AB /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		D732756F258A6C64001B07AB /* CountryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryItemView.swift; sourceTree = "<group>"; };
+		D7327574258A6E83001B07AB /* CountryItemViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryItemViewAdapter.swift; sourceTree = "<group>"; };
 		D7FBCF5B258A300900164564 /* web-solutions-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web-solutions-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBCF5E258A300900164564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7FBCF62258A300900164564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,12 +94,8 @@
 		D73274F5258A39C0001B07AB /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				D7327509258A3AA6001B07AB /* View */,
-				D732750A258A3ACA001B07AB /* Interactor */,
-				D7327507258A3A82001B07AB /* Presenter */,
-				D732750C258A3ADB001B07AB /* Router */,
-				D7327508258A3A9A001B07AB /* Assembly */,
-				D732752D258A4160001B07AB /* Submodules */,
+				D7327534258A612C001B07AB /* Connect */,
+				D7327535258A613F001B07AB /* CountrySelection */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -132,6 +162,98 @@
 			path = Submodules;
 			sourceTree = "<group>";
 		};
+		D7327534258A612C001B07AB /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				D7327509258A3AA6001B07AB /* View */,
+				D732750A258A3ACA001B07AB /* Interactor */,
+				D7327507258A3A82001B07AB /* Presenter */,
+				D732750C258A3ADB001B07AB /* Router */,
+				D7327508258A3A9A001B07AB /* Assembly */,
+				D732752D258A4160001B07AB /* Submodules */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		D7327535258A613F001B07AB /* CountrySelection */ = {
+			isa = PBXGroup;
+			children = (
+				D7327559258A6417001B07AB /* Assembly */,
+				D7327551258A6380001B07AB /* Router */,
+				D7327546258A62CA001B07AB /* Interactor */,
+				D7327541258A628E001B07AB /* Presenter */,
+				D7327536258A6180001B07AB /* View */,
+			);
+			path = CountrySelection;
+			sourceTree = "<group>";
+		};
+		D7327536258A6180001B07AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7327573258A6E70001B07AB /* CountryItem */,
+				D7327537258A618D001B07AB /* CountrySelectionViewController.swift */,
+				D732753B258A61CE001B07AB /* CountrySelectionViewInput.swift */,
+				D732753E258A6202001B07AB /* CountrySelectionViewOutput.swift */,
+				D7327568258A69D9001B07AB /* CountrySelectionTableViewManager.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D7327541258A628E001B07AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D7327542258A62AB001B07AB /* CountrySelectionPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D7327546258A62CA001B07AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D7327548258A62E0001B07AB /* CountrySelectionInteractorInput.swift */,
+				D732754B258A6307001B07AB /* CountrySelectionInteractorOutput.swift */,
+				D732754E258A6333001B07AB /* CountrySelectionInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D7327551258A6380001B07AB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D7327552258A6395001B07AB /* CountrySelectionRouterInput.swift */,
+				D7327556258A63C1001B07AB /* CountrySelectionRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D7327559258A6417001B07AB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D732755A258A6429001B07AB /* CountrySelectionModuleAssembly.swift */,
+				D7327564258A65D6001B07AB /* CountrySelectionModuleInput.swift */,
+				D732755E258A6454001B07AB /* CountrySelectionModuleOutput.swift */,
+				D7327561258A65AF001B07AB /* CountrySelectionConfigData.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		D732756B258A6AD9001B07AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D732756C258A6AE4001B07AB /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D7327573258A6E70001B07AB /* CountryItem */ = {
+			isa = PBXGroup;
+			children = (
+				D732756F258A6C64001B07AB /* CountryItemView.swift */,
+				D7327574258A6E83001B07AB /* CountryItemViewAdapter.swift */,
+			);
+			path = CountryItem;
+			sourceTree = "<group>";
+		};
 		D7FBCF52258A300900164564 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +273,7 @@
 		D7FBCF5D258A300900164564 /* web-solutions-test */ = {
 			isa = PBXGroup;
 			children = (
+				D732756B258A6AD9001B07AB /* Models */,
 				D73274F5258A39C0001B07AB /* Modules */,
 				D7FBCF5E258A300900164564 /* AppDelegate.swift */,
 				D7FBCF62258A300900164564 /* ViewController.swift */,
@@ -230,20 +353,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7327543258A62AB001B07AB /* CountrySelectionPresenter.swift in Sources */,
 				D7327520258A3D6F001B07AB /* ConnectInteractorInput.swift in Sources */,
 				D7FBCF63258A300900164564 /* ViewController.swift in Sources */,
+				D7327557258A63C1001B07AB /* CountrySelectionRouter.swift in Sources */,
+				D7327562258A65AF001B07AB /* CountrySelectionConfigData.swift in Sources */,
+				D7327569258A69D9001B07AB /* CountrySelectionTableViewManager.swift in Sources */,
 				D7327501258A3A3C001B07AB /* ConnectRouter.swift in Sources */,
 				D732751A258A3C16001B07AB /* ConnectViewOutput.swift in Sources */,
+				D7327565258A65D6001B07AB /* CountrySelectionModuleInput.swift in Sources */,
+				D7327549258A62E0001B07AB /* CountrySelectionInteractorInput.swift in Sources */,
 				D7327527258A4123001B07AB /* ConnectButtonView.swift in Sources */,
 				D73274F7258A3A0F001B07AB /* ConnectModuleAssembly.swift in Sources */,
+				D7327575258A6E83001B07AB /* CountryItemViewAdapter.swift in Sources */,
+				D7327570258A6C64001B07AB /* CountryItemView.swift in Sources */,
 				D73274FE258A3A2F001B07AB /* ConnectPresenter.swift in Sources */,
 				D7327530258A5036001B07AB /* ConnectButtonViewState.swift in Sources */,
 				D7FBCF5F258A300900164564 /* AppDelegate.swift in Sources */,
+				D732754C258A6307001B07AB /* CountrySelectionInteractorOutput.swift in Sources */,
 				D732751D258A3CDD001B07AB /* ConnectRouterInput.swift in Sources */,
+				D7327553258A6395001B07AB /* CountrySelectionRouterInput.swift in Sources */,
+				D732755B258A6429001B07AB /* CountrySelectionModuleAssembly.swift in Sources */,
+				D732756D258A6AE4001B07AB /* Country.swift in Sources */,
 				D7327504258A3A53001B07AB /* ConnectInteractor.swift in Sources */,
+				D7327538258A618D001B07AB /* CountrySelectionViewController.swift in Sources */,
+				D732754F258A6333001B07AB /* CountrySelectionInteractor.swift in Sources */,
 				D7327517258A3BC0001B07AB /* ConnectViewInput.swift in Sources */,
+				D732755F258A6454001B07AB /* CountrySelectionModuleOutput.swift in Sources */,
+				D732753F258A6202001B07AB /* CountrySelectionViewOutput.swift in Sources */,
 				D7327523258A3E6A001B07AB /* ConnectInteractorOutput.swift in Sources */,
 				D73274FB258A3A21001B07AB /* ConnectViewController.swift in Sources */,
+				D732753C258A61CE001B07AB /* CountrySelectionViewInput.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

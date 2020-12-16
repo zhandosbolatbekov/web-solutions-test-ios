@@ -28,10 +28,11 @@ class ConnectButtonView: UIView {
     
     private lazy var scaleAnimation: CABasicAnimation = {
         let animation = CABasicAnimation(keyPath: "transform.scale")
-        animation.duration = 1.0
+        animation.duration = 0.5
         animation.autoreverses = true
         animation.fromValue = 1.0
         animation.toValue = 1.2
+        animation.repeatCount = Float(Int.max)
         return animation
     }()
     
@@ -53,7 +54,7 @@ class ConnectButtonView: UIView {
         switch state {
         case .disconnected:
             backgroundColor = .white
-            setPulse(isAnimating: true)
+            setPulse(isAnimating: false)
             statusLabel.textColor = .black
         case .waiting:
             backgroundColor = .lightGray
@@ -62,7 +63,7 @@ class ConnectButtonView: UIView {
         case .connected:
             backgroundColor = .systemBlue
             statusLabel.textColor = .white
-            setPulse(isAnimating: true)
+            setPulse(isAnimating: false)
         }
     }
     

@@ -28,6 +28,18 @@ class ConnectViewController: UIViewController, ConnectViewInput {
         return label
     }()
     
+    private lazy var countryView: CountryItemView = {
+        let view = CountryItemView()
+        let initialViewAdapter = CountryItemViewAdapter(
+            iconName: nil,
+            name: "Select country",
+            isSelected: false
+        )
+        view.update(with: initialViewAdapter)
+        view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(didTapCountryView)))
+        return view
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         markup()
@@ -41,9 +53,13 @@ class ConnectViewController: UIViewController, ConnectViewInput {
         connectButtonView.set(state: state)
     }
     
+    func setCountryView(adapter: CountryItemViewAdapter) {
+        countryView.update(with: adapter)
+    }
+    
     private func markup() {
         view.backgroundColor = .white
-        [connectButtonView, timerLabel].forEach {
+        [connectButtonView, timerLabel, countryView].forEach {
             $0.translatesAutoresizingMaskIntoConstraints = false
             view.addSubview($0)
         }
@@ -51,7 +67,14 @@ class ConnectViewController: UIViewController, ConnectViewInput {
             connectButtonView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             connectButtonView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             timerLabel.topAnchor.constraint(equalTo: connectButtonView.bottomAnchor, constant: 24),
-            timerLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor)
+            timerLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            countryView.topAnchor.constraint(equalTo: timerLabel.bottomAnchor, constant: 24),
+            countryView.centerXAnchor.constraint(equalTo: view.centerXAnchor)
         ])
+    }
+    
+    @objc
+    private func didTapCountryView() {
+        output?.didTapCountryView()
     }
 }

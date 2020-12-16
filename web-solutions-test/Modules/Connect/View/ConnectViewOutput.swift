@@ -5,4 +5,6 @@
 //  Created by Zhandos Bolatbekov on 16.12.2020.
 //
 
-protocol ConnectViewOutput: ConnectButtonViewDelegate { }
+protocol ConnectViewOutput: ConnectButtonViewDelegate {
+    func didTapCountryView()
+}

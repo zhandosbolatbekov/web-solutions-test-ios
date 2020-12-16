@@ -6,5 +6,6 @@
 //
 
 protocol ConnectRouterInput {
-    func routeToCountrySelection()
+    func routeToCountrySelection(currentCountryId: Int?,
+                                 moduleOutput: CountrySelectionModuleOutput)
 }

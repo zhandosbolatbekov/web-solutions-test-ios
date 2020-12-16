@@ -8,4 +8,5 @@
 protocol ConnectViewInput: class {
     func updateConnectButton(state: ConnectButtonViewState)
     func setTimer(text: String?)
+    func setCountryView(adapter: CountryItemViewAdapter)
 }

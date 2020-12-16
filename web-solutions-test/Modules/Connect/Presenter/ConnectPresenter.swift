@@ -21,6 +21,8 @@ class ConnectPresenter: ConnectViewOutput, ConnectInteractorOutput {
     private var connectionTimer: Timer?
     private lazy var connectionTimerCounter: Int = 0
     
+    private var currentCountry: Country?
+    
     func connectionSucceeded() {
         connectButtonState = .connected
         startConnectionTimer()
@@ -41,6 +43,10 @@ class ConnectPresenter: ConnectViewOutput, ConnectInteractorOutput {
             interactor?.disconnect()
         }
         connectButtonState = .waiting
+    }
+    
+    func didTapCountryView() {
+        router?.routeToCountrySelection(currentCountryId: currentCountry?.id, moduleOutput: self)
     }
     
     private func startConnectionTimer() {
@@ -70,5 +76,14 @@ class ConnectPresenter: ConnectViewOutput, ConnectInteractorOutput {
         let minutes = seconds / 60
         let secondsReminder = seconds % 60
         return String(format: "%02i:%02i", minutes, secondsReminder)
+    }
+}
+
+extension ConnectPresenter: CountrySelectionModuleOutput {
+    func didSelect(country: Country) {
+        currentCountry = country
+        view?.setCountryView(adapter: .init(country: country, isSelected: false))
+        interactor?.connectToCountry(with: country.id)
+        connectButtonState = .waiting
     }
 }

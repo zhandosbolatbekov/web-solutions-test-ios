@@ -11,7 +11,7 @@ class ConnectModuleAssembly {
     func assemble() -> UIViewController {
         let viewController = ConnectViewController()
         let presenter = ConnectPresenter()
-        let router = ConnectRouter()
+        let router = ConnectRouter(countrySelectionAssembly: CountrySelectionModuleAssembly())
         let interactor = ConnectInteractor()
         
         viewController.output = presenter
