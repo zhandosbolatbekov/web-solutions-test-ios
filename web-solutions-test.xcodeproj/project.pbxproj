@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D73274F7258A3A0F001B07AB /* ConnectModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73274F6258A3A0F001B07AB /* ConnectModuleAssembly.swift */; };
+		D73274FB258A3A21001B07AB /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73274FA258A3A21001B07AB /* ConnectViewController.swift */; };
+		D73274FE258A3A2F001B07AB /* ConnectPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73274FD258A3A2F001B07AB /* ConnectPresenter.swift */; };
+		D7327501258A3A3C001B07AB /* ConnectRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327500258A3A3C001B07AB /* ConnectRouter.swift */; };
+		D7327504258A3A53001B07AB /* ConnectInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327503258A3A53001B07AB /* ConnectInteractor.swift */; };
+		D7327517258A3BC0001B07AB /* ConnectViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327516258A3BC0001B07AB /* ConnectViewInput.swift */; };
+		D732751A258A3C16001B07AB /* ConnectViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327519258A3C16001B07AB /* ConnectViewOutput.swift */; };
+		D732751D258A3CDD001B07AB /* ConnectRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732751C258A3CDD001B07AB /* ConnectRouterInput.swift */; };
+		D7327520258A3D6F001B07AB /* ConnectInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732751F258A3D6F001B07AB /* ConnectInteractorInput.swift */; };
+		D7327523258A3E6A001B07AB /* ConnectInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327522258A3E6A001B07AB /* ConnectInteractorOutput.swift */; };
+		D7327527258A4123001B07AB /* ConnectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327526258A4123001B07AB /* ConnectButtonView.swift */; };
+		D7327530258A5036001B07AB /* ConnectButtonViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732752F258A5036001B07AB /* ConnectButtonViewState.swift */; };
 		D7FBCF5F258A300900164564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF5E258A300900164564 /* AppDelegate.swift */; };
-		D7FBCF61258A300900164564 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF60258A300900164564 /* SceneDelegate.swift */; };
 		D7FBCF63258A300900164564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF62258A300900164564 /* ViewController.swift */; };
-		D7FBCF66258A300900164564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF64258A300900164564 /* Main.storyboard */; };
 		D7FBCF68258A300C00164564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF67258A300C00164564 /* Assets.xcassets */; };
 		D7FBCF6B258A300C00164564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF69258A300C00164564 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D73274F6258A3A0F001B07AB /* ConnectModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectModuleAssembly.swift; sourceTree = "<group>"; };
+		D73274FA258A3A21001B07AB /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		D73274FD258A3A2F001B07AB /* ConnectPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectPresenter.swift; sourceTree = "<group>"; };
+		D7327500258A3A3C001B07AB /* ConnectRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectRouter.swift; sourceTree = "<group>"; };
+		D7327503258A3A53001B07AB /* ConnectInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInteractor.swift; sourceTree = "<group>"; };
+		D7327516258A3BC0001B07AB /* ConnectViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewInput.swift; sourceTree = "<group>"; };
+		D7327519258A3C16001B07AB /* ConnectViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewOutput.swift; sourceTree = "<group>"; };
+		D732751C258A3CDD001B07AB /* ConnectRouterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectRouterInput.swift; sourceTree = "<group>"; };
+		D732751F258A3D6F001B07AB /* ConnectInteractorInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInteractorInput.swift; sourceTree = "<group>"; };
+		D7327522258A3E6A001B07AB /* ConnectInteractorOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectInteractorOutput.swift; sourceTree = "<group>"; };
+		D7327526258A4123001B07AB /* ConnectButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButtonView.swift; sourceTree = "<group>"; };
+		D732752F258A5036001B07AB /* ConnectButtonViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectButtonViewState.swift; sourceTree = "<group>"; };
 		D7FBCF5B258A300900164564 /* web-solutions-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web-solutions-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBCF5E258A300900164564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7FBCF60258A300900164564 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D7FBCF62258A300900164564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D7FBCF65258A300900164564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7FBCF67258A300C00164564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7FBCF6A258A300C00164564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7FBCF6C258A300C00164564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +57,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D73274F5258A39C0001B07AB /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D7327509258A3AA6001B07AB /* View */,
+				D732750A258A3ACA001B07AB /* Interactor */,
+				D7327507258A3A82001B07AB /* Presenter */,
+				D732750C258A3ADB001B07AB /* Router */,
+				D7327508258A3A9A001B07AB /* Assembly */,
+				D732752D258A4160001B07AB /* Submodules */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D7327507258A3A82001B07AB /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D73274FD258A3A2F001B07AB /* ConnectPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D7327508258A3A9A001B07AB /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D73274F6258A3A0F001B07AB /* ConnectModuleAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		D7327509258A3AA6001B07AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7327525258A4105001B07AB /* ConnectButton */,
+				D73274FA258A3A21001B07AB /* ConnectViewController.swift */,
+				D7327516258A3BC0001B07AB /* ConnectViewInput.swift */,
+				D7327519258A3C16001B07AB /* ConnectViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D732750A258A3ACA001B07AB /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D7327503258A3A53001B07AB /* ConnectInteractor.swift */,
+				D732751F258A3D6F001B07AB /* ConnectInteractorInput.swift */,
+				D7327522258A3E6A001B07AB /* ConnectInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D732750C258A3ADB001B07AB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				D7327500258A3A3C001B07AB /* ConnectRouter.swift */,
+				D732751C258A3CDD001B07AB /* ConnectRouterInput.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		D7327525258A4105001B07AB /* ConnectButton */ = {
+			isa = PBXGroup;
+			children = (
+				D732752F258A5036001B07AB /* ConnectButtonViewState.swift */,
+				D7327526258A4123001B07AB /* ConnectButtonView.swift */,
+			);
+			path = ConnectButton;
+			sourceTree = "<group>";
+		};
+		D732752D258A4160001B07AB /* Submodules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Submodules;
+			sourceTree = "<group>";
+		};
 		D7FBCF52258A300900164564 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +151,9 @@
 		D7FBCF5D258A300900164564 /* web-solutions-test */ = {
 			isa = PBXGroup;
 			children = (
+				D73274F5258A39C0001B07AB /* Modules */,
 				D7FBCF5E258A300900164564 /* AppDelegate.swift */,
-				D7FBCF60258A300900164564 /* SceneDelegate.swift */,
 				D7FBCF62258A300900164564 /* ViewController.swift */,
-				D7FBCF64258A300900164564 /* Main.storyboard */,
 				D7FBCF67258A300C00164564 /* Assets.xcassets */,
 				D7FBCF69258A300C00164564 /* LaunchScreen.storyboard */,
 				D7FBCF6C258A300C00164564 /* Info.plist */,
@@ -126,7 +220,6 @@
 			files = (
 				D7FBCF6B258A300C00164564 /* LaunchScreen.storyboard in Resources */,
 				D7FBCF68258A300C00164564 /* Assets.xcassets in Resources */,
-				D7FBCF66258A300900164564 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +230,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7327520258A3D6F001B07AB /* ConnectInteractorInput.swift in Sources */,
 				D7FBCF63258A300900164564 /* ViewController.swift in Sources */,
+				D7327501258A3A3C001B07AB /* ConnectRouter.swift in Sources */,
+				D732751A258A3C16001B07AB /* ConnectViewOutput.swift in Sources */,
+				D7327527258A4123001B07AB /* ConnectButtonView.swift in Sources */,
+				D73274F7258A3A0F001B07AB /* ConnectModuleAssembly.swift in Sources */,
+				D73274FE258A3A2F001B07AB /* ConnectPresenter.swift in Sources */,
+				D7327530258A5036001B07AB /* ConnectButtonViewState.swift in Sources */,
 				D7FBCF5F258A300900164564 /* AppDelegate.swift in Sources */,
-				D7FBCF61258A300900164564 /* SceneDelegate.swift in Sources */,
+				D732751D258A3CDD001B07AB /* ConnectRouterInput.swift in Sources */,
+				D7327504258A3A53001B07AB /* ConnectInteractor.swift in Sources */,
+				D7327517258A3BC0001B07AB /* ConnectViewInput.swift in Sources */,
+				D7327523258A3E6A001B07AB /* ConnectInteractorOutput.swift in Sources */,
+				D73274FB258A3A21001B07AB /* ConnectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D7FBCF64258A300900164564 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D7FBCF65258A300900164564 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D7FBCF69258A300C00164564 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +392,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Zhandos.web-solutions-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "me.Zhandos.web-solutions-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
