@@ -37,7 +37,6 @@
 		D7327570258A6C64001B07AB /* CountryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732756F258A6C64001B07AB /* CountryItemView.swift */; };
 		D7327575258A6E83001B07AB /* CountryItemViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7327574258A6E83001B07AB /* CountryItemViewAdapter.swift */; };
 		D7FBCF5F258A300900164564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF5E258A300900164564 /* AppDelegate.swift */; };
-		D7FBCF63258A300900164564 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FBCF62258A300900164564 /* ViewController.swift */; };
 		D7FBCF68258A300C00164564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF67258A300C00164564 /* Assets.xcassets */; };
 		D7FBCF6B258A300C00164564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7FBCF69258A300C00164564 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -74,7 +73,6 @@
 		D7327574258A6E83001B07AB /* CountryItemViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryItemViewAdapter.swift; sourceTree = "<group>"; };
 		D7FBCF5B258A300900164564 /* web-solutions-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "web-solutions-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7FBCF5E258A300900164564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D7FBCF62258A300900164564 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D7FBCF67258A300C00164564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7FBCF6A258A300C00164564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7FBCF6C258A300C00164564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -276,7 +274,6 @@
 				D732756B258A6AD9001B07AB /* Models */,
 				D73274F5258A39C0001B07AB /* Modules */,
 				D7FBCF5E258A300900164564 /* AppDelegate.swift */,
-				D7FBCF62258A300900164564 /* ViewController.swift */,
 				D7FBCF67258A300C00164564 /* Assets.xcassets */,
 				D7FBCF69258A300C00164564 /* LaunchScreen.storyboard */,
 				D7FBCF6C258A300C00164564 /* Info.plist */,
@@ -355,7 +352,6 @@
 			files = (
 				D7327543258A62AB001B07AB /* CountrySelectionPresenter.swift in Sources */,
 				D7327520258A3D6F001B07AB /* ConnectInteractorInput.swift in Sources */,
-				D7FBCF63258A300900164564 /* ViewController.swift in Sources */,
 				D7327557258A63C1001B07AB /* CountrySelectionRouter.swift in Sources */,
 				D7327562258A65AF001B07AB /* CountrySelectionConfigData.swift in Sources */,
 				D7327569258A69D9001B07AB /* CountrySelectionTableViewManager.swift in Sources */,
